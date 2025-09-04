@@ -1,15 +1,7 @@
 # Phone Battery Usage Analysis
 
-Introduction
-This project uses R to analyze and validate a phone's battery usage data. It aims to identify the biggest battery-draining apps and to account for the hidden battery consumption from the phone's operating system and background processes.
+This project analyzes phone battery usage data from a CSV file. It identifies the biggest battery-draining apps and accounts for hidden battery consumption from the phone's operating system. The unique methodology explicitly calculates and labels this unaccounted-for usage to provide a complete, 100% accurate breakdown.
 
-Methodology
-The analysis is conducted using a custom R script that reads app usage data from a CSV file. The script performs a series of calculations to determine key metrics such as drain rate and app efficiency. A key part of the methodology is a unique approach to validate the data by explicitly calculating and labeling unaccounted-for battery usage.
+The analysis provides key insights, including a battery usage breakdown, app efficiency ratings, and a visualization of the correlation between screen time and battery usage. These findings are presented with plots that are saved and uploaded to the repository.
 
-Key Findings and Visualizations
-The analysis provides key insights into the phone's battery behavior, as shown in the following visualizations."
-Battery Usage Breakdown:  "The analysis found that only a portion of the total battery drain comes from listed apps, with a significant percentage attributed to system and unaccounted usage."
-App Efficiency: "This bar chart shows the most power-hungry apps on a per-minute basis, highlighting potential targets for optimization."
-Screen Time vs. Battery Usage:  "The scatter plot reveals the correlation between screen time and battery usage for each app."
-
- How to Run the Code
+To run the code yourself, simply download the project, ensure all necessary R packages are installed, add your own CSV file named battery_data.csv, and run the script in your R environment.
